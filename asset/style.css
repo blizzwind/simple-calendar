@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.week {
+  width: calc(100%/7);
+  display: inline-block;
+  text-align: center;
+}
+.day {
+  width: calc(100%/7 - 3rem - 2px);
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #000;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  height: 3.5rem;
+  cursor: pointer;
+  float: left;
+}
+#top {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+#bot {
+  margin-top: 2.5rem;
+}
